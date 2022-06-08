@@ -97,17 +97,21 @@
         <div>
           <label class="form-field">
             Do you love cats?
-            <input 
-              required
-              type="radio" 
-              name="cats"
-            >
-            Yes
-            <input 
-              type="radio" 
-              name="cats"
-            >
-            No
+            <label>
+              <input 
+                required
+                type="radio" 
+                name="cats"
+              >
+              Yes
+            </label>
+            <label>
+              <input 
+                type="radio" 
+                name="cats"
+              >
+              No
+            </label>
           </label>
         </div>
         <label class="form-field">
@@ -126,7 +130,7 @@
         </label>
         <label class="form-field">
           What are your favorite brand of cars?
-          <select class="brand-of-car"
+          <select
             name="brandOfCar" 
             required 
             multiple
@@ -171,7 +175,6 @@
       </fieldset>
 
       <button type="submit">Submit</button>
-
     </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
